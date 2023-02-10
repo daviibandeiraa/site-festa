@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Arimo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+body{
+        background-image:  url(./img/teste.jpg);
+    background-position: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+ 
+a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.nav-menu{
+    display: flex;
+    
+}
+li{
+    padding-top: 40px;
+    margin-left: 70px;
+}
+ul{
+    list-style: none;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+}
+.texto-h1{
+    color: #;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 84px;
+    padding-top: 150px;
+    text-align: center;
+    
+}
+.texto-h2{
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size:  40px;
+    padding-top: 40px;
+    text-align: center;
+}
+.button-comecar{
+    font-family: 'Archivo Black', sans-serif;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 20px;
+    display: block;
+    font-size:  40px;
+    color: black;
+    opacity: 0.8;
+}
+.button-comecar:hover{
+
+    opacity:1;
+    background:#13cf3c;
+    transition: all .3s ease-out;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    
+
+
+
+}
