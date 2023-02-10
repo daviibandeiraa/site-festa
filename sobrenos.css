@@ -6,14 +6,65 @@
     box-sizing: border-box;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+body{
+        background-image:  url(./img/teste.jpg);
+    background-position: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+ 
+a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.nav-menu{
+    display: flex;
+    
+}
+li{
+    padding-top: 40px;
+    margin-left: 70px;
+}
+ul{
+    list-style: none;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+}
+
+
 .container-mid{
+    display: flex;
     font-family: 'Arimo', sans-serif;
     color: white;
-    display: block;
     height: 969px;
-    width: 800px;
+    width: 100%;
     background-color: black;
     margin: auto auto;
-    
-    
+}
+.texto-esquerdo{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.texto-direito{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.textos-centro{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 0, 43);
+    margin: auto;
 }
